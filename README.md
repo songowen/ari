@@ -1,5 +1,7 @@
 # 🎵 Ari - 블록체인 기반 음원 스트리밍 플랫폼
-
+<p align="center">
+  <img src="./readme/readme_img.png" width="800" alt="Ari Main Image"/>
+</p>
 > 불투명한 정산과 복잡한 음원 등록 과정을 개선하기 위한 **탈중앙화 음원 플랫폼**  
 > 투명한 스트리밍 데이터와 자동화된 정산 시스템으로 아티스트와 사용자 모두에게 공정한 생태계를 제공합니다.
 
@@ -32,7 +34,9 @@ Ari는 블록체인의 **투명성, 불변성, 탈중앙화** 특성을 활용�
 ## 🔧 기술 구성
 
 ### 📦 아키텍처 요약
-  
+  <p align="center">
+  <img src="./readme/architecture.png" width="800" alt="Ari Architecture Diagram"/>
+</p>
   ---
 
 ### 🧱 주요 기술 스택
