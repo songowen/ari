@@ -14,7 +14,8 @@
 - [🧩 문제 정의](#-문제-정의)  
 - [💡 Ari의 해결방안](#-ari의-해결방안)  
 - [🔧 기술 구성](#-기술-구성)  
-  - [📦 아키텍처 요약](#-아키텍처-요약)
+  - [📦 아키텍처 요약](#-아키텍처-요약)  
+  - [🖼️ 와이어프레임](#️-와이어프레임)  
   - [📊 ERD](#erd)  
   - [🧱 주요 기술 스택](#-주요-기술-스택)  
   - [⛓️ 온체인 vs 오프체인 전략](#⛓️-온체인-vs-오프체인-전략)  
@@ -53,8 +54,15 @@ Ari는 블록체인의 **투명성, 불변성, 탈중앙화** 특성을 활용�
 
 ![BE아키텍처 drawio](https://github.com/user-attachments/assets/55ddf8f3-e5d6-4951-9b94-b41a7569e297)
 
+---
 
-### ERD
+### 🖼️ 와이어프레임
+
+[![와이어프레임 이미지](https://github.com/user-attachments/assets/1d165683-195c-459b-84eb-9b1f4ed0e55e)](https://www.figma.com/design/u3TaYpFQBUJqVA4AGsqAUd/C205?node-id=0-1&t=q8F4l43WPhIjrrS0-1)
+
+---
+
+### 📊 ERD
 
 ![특화 (1)](https://github.com/user-attachments/assets/c35bea2d-b8cd-44e2-b1cd-561a1da41b41)
 
@@ -96,12 +104,12 @@ Ari는 블록체인의 **투명성, 불변성, 탈중앙화** 특성을 활용�
 <table>
   <tbody>
     <tr align="center">
-      <td><img src="https://avatars.githubusercontent.com/u/113484236?v=4" width="100px;" alt=""/><br /></td>
-      <td><img src="https://avatars.githubusercontent.com/u/108385400?v=4" width="100px;" alt=""/><br /></td>
-      <td><img src="https://avatars.githubusercontent.com/u/174885052?v=4" width="100px;" alt=""/><br /></td>
-      <td><img src="https://avatars.githubusercontent.com/u/175234691?v=4" width="100px;" alt=""/><br /></td>
-      <td><img src="https://avatars.githubusercontent.com/u/145769307?v=4" width="100px;" alt=""/><br /></td>
-      <td><img src="https://avatars.githubusercontent.com/u/101163507?v=4" width="100px;" alt=""/><br /></td>
+      <td><img src="https://avatars.githubusercontent.com/u/113484236?v=4" width="100px;" style="border-radius: 50%;" alt=""/><br /></td>
+      <td><img src="https://avatars.githubusercontent.com/u/108385400?v=4" width="100px;" style="border-radius: 50%;" alt=""/><br /></td>
+      <td><img src="https://avatars.githubusercontent.com/u/174885052?v=4" width="100px;" style="border-radius: 50%;" alt=""/><br /></td>
+      <td><img src="https://avatars.githubusercontent.com/u/175234691?v=4" width="100px;" style="border-radius: 50%;" alt=""/><br /></td>
+      <td><img src="https://avatars.githubusercontent.com/u/145769307?v=4" width="100px;" style="border-radius: 50%;" alt=""/><br /></td>
+      <td><img src="https://avatars.githubusercontent.com/u/101163507?v=4" width="100px;" style="border-radius: 50%;" alt=""/><br /></td>
     </tr>
     <tr align="center">
       <td width="200"><a href="http://github.com/miltonjskim">팀장 : 김준석<br/>INFJ</a></td>
