@@ -9,18 +9,27 @@
 
 ---
 
-## 📑 목차
+## 📚 목차 (Table of Contents)
+- [🧭 프로젝트 소개](#-프로젝트-소개)
+- [🧩 문제 정의](#-문제-정의)
+- [💡 해결방안](#-해결방안)
+- [🔧 기술 구성](#-기술-구성)
+  - [📦 아키텍처 요약](#-아키텍처-요약)
+  - [🖼️ 와이어프레임](#-와이어프레임)
+  - [📊 ERD](#-erd)
+  - [🧱 주요 기술 스택](#-주요-기술-스택)
+- [⚙️ 성능 개선 및 기술 고도화](#️-성능-개선-및-기술-고도화)
+- [👥 팀 구성](#-팀-구성)
 
-- [🧩 문제 정의](#-문제-정의)  
-- [💡 Ari의 해결방안](#-ari의-해결방안)  
-- [🔧 기술 구성](#-기술-구성)  
-  - [📦 아키텍처 요약](#-아키텍처-요약)  
-  - [🖼️ 와이어프레임](#️-와이어프레임)  
-  - [📊 ERD](#erd)  
-  - [🧱 주요 기술 스택](#-주요-기술-스택)  
-  - [⛓️ 온체인 vs 오프체인 전략](#⛓️-온체인-vs-오프체인-전략)  
-- [⚙️ 성능 개선](#️-성능-개선)  
-- [👥 팀 구성](#-팀-구성)  
+---
+
+## 🧭 프로젝트 소개
+
+- **기간**: (예: 2025.03.04 ~ 2025.04.11)
+- **기획의도**:  
+  기존 음원 플랫폼의 불투명한 정산과 복잡한 등록 과정을 개선하고, 블록체인 기술로 공정한 생태계를 구축하기 위함
+- **핵심 컨셉**:  
+  블록체인 기반으로 투명한 데이터 관리, 자동화된 정산, 누구나 쉽게 음원을 등록할 수 있는 플랫폼 제공
 
 ---
 
@@ -35,7 +44,7 @@
 
 ---
 
-## 💡 Ari의 해결방안
+## 💡 해결방안
 
 Ari는 블록체인의 **투명성, 불변성, 탈중앙화** 특성을 활용하여 아래와 같은 기능을 구현합니다.
 
@@ -70,30 +79,25 @@ Ari는 블록체인의 **투명성, 불변성, 탈중앙화** 특성을 활용�
 
 ### 🧱 주요 기술 스택
 
-| 구분 | 기술 |
-|------|------|
-| 클라이언트 | Flutter, Hive, just_audio |
-| 서버 | Spring Boot, MySQL, MongoDB, Redis |
-| 인프라 | Docker, Nginx, Jenkins |
-| 기타 | Figma, Postman, Gitlab |
-| 분산 저장 | IPFS |
-| 블록체인 | Ethereum (Testnet), Merkle Tree 구조 |
-| 기타 | Chainlink Automation (오라클 자동 트리거) |
+### 🖥️ Client
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Hive-FF8C00?style=for-the-badge&logo=hive&logoColor=white"/> <img src="https://img.shields.io/badge/just_audio-4CAF50?style=for-the-badge&logo=musicbrainz&logoColor=white"/>
+
+### 🛠 Backend
+<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+
+### ⚙ Infra & 기타
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white"/> <img src="https://img.shields.io/badge/Chainlink-375BD2?style=for-the-badge&logo=chainlink&logoColor=white"/> <img src="https://img.shields.io/badge/MerkleTree-8A2BE2?style=for-the-badge&logo=tree&logoColor=white"/>
+
+
 
 ---
 
-### ⛓️ 온체인 vs 오프체인 전략
-
-- **온체인**: 정산 내역, Merkle Root, 토큰 트랜잭션  
-- **오프체인**: 대용량 스트리밍 로그, 사용자 음원 파일
-
----
-
-## ⚙️ 성능 개선
+## ⚙️ 성능 개선 및 기술 고도화
 
 - 기존 스트리밍 내역 조회 시간: 평균 **46초**  
 - 개선 후 핀닝 + 비동기 처리: 평균 **8초**  
   → `CompletableFuture` 구조 도입으로 응답 속도 대폭 개선
+
 
 ---
 
